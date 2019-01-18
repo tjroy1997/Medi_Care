@@ -1,0 +1,60 @@
+body
+		{
+		margin:0;
+		background:url('throat.png');
+		background-size:cover;
+		}
+
+
+.nav{
+		
+		}
+		ul 
+		{   margin-top: 90px;
+			list-style: none;
+			margin-left: 390px;
+		    padding: 20px;
+		    position:absolute;
+			background: black;
+
+		}
+		li
+		{
+			margin-bottom: 20px;
+		 margin-left: 200px;
+		float:left;
+		margin-top:30px;
+		}
+		a
+		{
+			background: black;
+		width:150px;
+		color:white;
+		display:block;
+		text-decoration:none;
+		font-size:20px;
+		text-align:center;
+		padding:5px;
+		border-radius:5px;
+	
+		font-weight:bold;
+		}
+		a:hover
+		{
+		background:#00FFFF;
+		
+		}
+	
+
+	a:hover
+	{
+		background: #00FFFF;
+		transition: 0.6s;
+	}
+	.q{
+		margin-left: 600px;
+	}
+	.b{
+		margin-left: 600px;
+	}
+}

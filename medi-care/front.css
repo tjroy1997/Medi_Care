@@ -1,0 +1,136 @@
+body
+		{
+		margin:0;
+		padding: 0;
+		background:url('image/dna.jpg');
+		background-size:cover;
+		}
+
+		.logo {
+			
+
+	background: url('image/img0100.jpg');
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 600px;
+    text-align: center;
+   
+}
+
+.nav{
+
+		width: 100%;
+		background: grey;
+		height:100px;
+		margin-top: 100px;
+		opacity:0.6;
+		}
+		ul 
+		{    
+			list-style: none;
+			padding-left: 0;
+		    margin:0;
+		    position:absolute;
+		}
+		li
+		{
+		float:left;
+		margin-top:30px;
+		}
+		a
+		{
+		width:150px;
+		color:white;
+		display:block;
+		text-decoration:none;
+		font-size:20px;
+		text-align:center;
+		padding:5px;
+		border-radius:5px;
+		font-family:Century Gothic;
+		font-weight:bold;
+		}
+		a:hover
+		{
+		background:#00FFFF;
+		transition:0.6s;
+		}
+
+		.m{
+          		font-size: 50px;
+				border-radius: 30px;
+				text-decoration:none;
+				text-align: center;
+				color:white;
+				background: #00FFFF;
+				color: black;
+		}
+
+		.x ul {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+
+
+		}
+		.x ul li{
+			list-style: none;
+			margin: 0 15px;
+			
+		}
+		.x ul li a{
+			position: relative;
+			display: block;
+			width: 60px;
+			height: 60px;
+			text-align: center;
+			line-height: 60px;
+			background: white;
+			border-radius: 50%;
+			font-size: 30px;
+			color: blue;
+			transition: .5s;
+		}
+		.x ul li a:before{
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			border-radius: 50%;
+			background:#00ffff;
+			transition: .5s;
+			transform: scale(.9);
+			z-index: -1;
+		}
+		.x ul li a:hover:before{
+
+			transform: scale(1.1);
+			box-shadow: 0 0 15px white;
+		}
+		.x ul li a:hover{
+
+			color: black;
+			box-shadow: 0 0 5px #00ffff;
+			text-shadow: 0 0 5px #00ffff;
+		}
+		.n{
+			margin-top: 300px;
+			font-size: 20px;
+			border-radius: 30px;
+			text-decoration:none;
+			text-align: center;
+			color:white;
+			background: white;
+			color: blue;
+
+		}

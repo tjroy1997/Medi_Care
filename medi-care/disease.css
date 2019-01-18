@@ -1,0 +1,56 @@
+.m{
+	margin: auto;
+	font-size: 20px;
+	background-size: cover;
+	padding: 20px;
+}
+ul{
+	color :white;
+}
+h2{
+	color:#00FFFF;
+}
+
+body
+		{
+		margin:0;
+		background:black;
+		background: url('1.jpg');
+		background-size:cover;
+		
+		padding: 40px;
+		margin: auto;
+		}
+
+	.q{
+		margin-left: 500px;
+		padding: 30px;
+	}
+	a
+		{
+		width:150px;
+		color:white;
+		display:block;
+		text-decoration:none;
+		font-size:20px;
+		text-align:center;
+		padding:5px;
+		border-radius:5px;
+	
+		font-weight:bold;
+		}
+		a:hover
+		{
+		background:#00FFFF;
+		
+		}
+	
+
+	a:hover
+	{
+		background: #00FFFF;
+		transition: 0.6s;
+	}
+	.m p{
+		color: white;
+	}

@@ -1,0 +1,58 @@
+body
+		{
+		margin:0;
+		background:url('neck.jpg');
+		background-size:cover;
+		}
+
+		
+
+
+.nav{
+		
+		}
+		ul 
+		{   
+			list-style: none;
+			padding-left: 0;
+		    margin-top: 80px;
+		    position:absolute;
+			column-count: 3;
+		}
+		li
+		{
+			margin-bottom: 20px;
+		 margin-left: 190px;
+		float:left;
+		margin-top:30px;
+		}
+		a
+		{
+		width:150px;
+		color:white;
+		display:block;
+		text-decoration:none;
+		font-size:20px;
+		text-align:center;
+		padding:5px;
+		border-radius:5px;
+	
+		font-weight:bold;
+		}
+		a:hover
+		{
+		background:#00FFFF;
+		
+		}
+	
+
+	a:hover
+	{
+		background: #00FFFF;
+		transition: 0.6s;
+	}
+	.q{
+		margin-left: 600px;
+		padding: 30px;
+	}
+}

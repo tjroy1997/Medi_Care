@@ -1,0 +1,59 @@
+body
+		{
+		margin:0;
+		background:url('image/45324_1.jpg');
+		background-size:cover;
+		}
+
+		
+
+
+.nav{
+		
+		}
+		ul 
+		{   
+			margin-top: 150px;
+			list-style: none;
+		    position:absolute;
+			  column-count: 3;
+		}
+		li
+		{
+		margin-bottom: 20px;
+		margin-left: 200px;
+		float:left;
+		margin-top:30px;
+
+		}
+
+		a
+		{
+		width:150px;
+		color:white;
+		display:block;
+		text-decoration:none;
+		font-size:20px;
+		text-align:center;
+		padding:5px;
+		border-radius:5px;
+	
+		font-weight:bold;
+		}
+		a:hover
+		{
+		background:grey;
+		
+		}
+	
+
+	a:hover
+	{
+		background: grey;
+		transition: 0.6s;
+	}
+	.q{
+		margin-left: 600px;
+		color: blue;
+	}
+}
